@@ -1,9 +1,9 @@
 # Postoperative Patient Data Pipeline
 
 ## Overview
-This project implements a **data engineering pipeline** using Apache Spark in Databricks to ingest, transform, and store postoperative patient data. The pipeline processes structured data stored in Azure Blob Storage, applies transformations, and prepares it for downstream analytics and modeling.
+This project implements a data pipeline using Apache Spark in Databricks to ingest, transform, and store postoperative patient data. The pipeline processes structured data stored in Azure Blob Storage, applies transformations, and prepares it for downstream analytics and modeling.
 
-## Data Engineering Workflow
+## Workflow
 1. **Data Ingestion**
    - Mount Azure Blob Storage in Databricks
    - Load raw data in Parquet format
